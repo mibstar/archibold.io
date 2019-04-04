@@ -16,7 +16,7 @@ bash <(curl -s https://archibold.io/kiosk/utils/init)
 # install wpe for arch64
 # curl -LO https://archibold.io/kiosk/utils/wpe-aarch64
 # mv wpe-aarch64 wpe-install
-mv utils/wpe-install wpe-install
+mv kiosk/utils/wpe-install wpe-install
 
 chmod a+x wpe-install
 chown alarm:alarm wpe-install
